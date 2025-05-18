@@ -27,7 +27,9 @@ python dump_negro_plot.py
 ### Saída
 Gráfico exibido com os anos especificados e curvas de médias.
 
-Fonte dos dados: Porto de Manaus
+![Previsão do nível do rio](17052025__Rio_Negro.png)
+
+### Fonte dos dados: Porto de Manaus
 
 ## 🤖 Previsão com LSTM (LSTM.py)
 
@@ -54,6 +56,9 @@ Arquivo de imagem previsao_lstm.png com:
 - Previsão para os próximos dias
 - Modelo salvo em modelo_lstm.h5 após treinamento (ou reutilizado se já existir)
 
+![Previsão do nível do rio](previsao_lstm.png)
+
+
 ## 🧩 Requisitos
 Instale as dependências com:
 
@@ -67,17 +72,6 @@ requirements.txt
 - matplotlib
 - scikit-learn
 - tensorflow
-
-## 📁 Estrutura sugerida do projeto
-.
-├── dump_negro_plot.py
-├── LSTM.py
-├── plot_input.csv
-├── lstm_input.csv
-├── previsao_lstm.png
-├── modelo_lstm.h5
-├── requirements.txt
-└── README.md
 
 ## 📌 Notas
 Certifique-se de que os arquivos de entrada estejam no mesmo diretório dos scripts.
